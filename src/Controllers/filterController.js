@@ -69,22 +69,4 @@ exports.filter =  (req, res) => {
             res.send(newUser)}).catch(err=>{console.log(err)})
              return 
     }
-
-
-  //.............................................................. multi level filter 
-// var data
-// await Users.findAll().then(user => {data= user})
-// console.log(data)
-// const filters = req.query;
-//   const filteredUsers = data.filter(user => {
-//     let isValid = true;
-//     for (key in filters) {
-//       console.log(key, user[key], filters[key]);
-//       isValid = isValid && user[key] == filters[key];
-//     }
-//     return isValid;
-//   });
-//   res.send(filteredUsers);
-
-
-      }
+}
